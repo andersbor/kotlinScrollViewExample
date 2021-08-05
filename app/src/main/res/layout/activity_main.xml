@@ -12,13 +12,13 @@
         android:text="In general you should avoid using more space than the screen allows" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="However, if you must use more space make sure to add a ScrollView" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="The TextView elements are outside the ScrollView, and are thus not scrolling" />
 
     <ScrollView
